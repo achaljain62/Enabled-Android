@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="654dp"
+        android:fontFamily="@font/regular"
+        android:text="Files"
+        android:textColor="@color/black"
+        android:textSize="29sp" />
+
+    <ImageButton
+        android:id="@+id/filePdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="508dp"
+        android:background="@drawable/button"
+        app:srcCompat="@drawable/ic_filepdf" />
+
+    <ImageButton
+        android:id="@+id/fileSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="507dp"
+        android:background="@drawable/button"
+        app:srcCompat="@drawable/ic_filesound" />
+
+    <ImageButton
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="481dp"
+        android:background="@drawable/button"
+        app:srcCompat="@drawable/ic_dots" />
+
+
+    <ImageButton
+        android:id="@+id/dots2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="356dp"
+        android:layout_marginBottom="481dp"
+        android:background="@drawable/button"
+        app:srcCompat="@drawable/ic_dots" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="479dp"
+        android:fontFamily="@font/regular"
+        android:text="File name"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="479dp"
+        android:fontFamily="@font/regular"
+        android:text="File name"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="655dp"
+        android:background="@drawable/buttonsignup"
+        android:fontFamily="@font/medium"
+        android:text="LogOut"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+
+    <ImageButton
+        android:id="@+id/radioButton"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttonsignup"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/radioBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_border" />
+
+    <TextView
+        android:id="@+id/mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@id/radioButton"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="-50dp"
+        android:fontFamily="@font/medium"
+        android:text="MIC"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@id/radioButton"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="-90dp"
+        app:srcCompat="@drawable/ic_icon" />
+
+</RelativeLayout>
